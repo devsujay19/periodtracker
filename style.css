@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    user-select: none;
+    background-color: black;
+    color: white;
+}
+
+div {
+    padding-top: 15%;
+    margin: auto;
+    width: 69%;
+}
+
+#heading {
+    font-family: "Winky Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+#sub-heading {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+}
+
+img {
+    user-select: none;
+    filter: invert(100%);
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: 2px solid red;
+    transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+img:hover {
+    width: 55px;
+    height: 55px;
+    border: 3px solid red;
+}
+
+img:active {
+    width: 47.5px;
+    height: 47.5px;
+}
